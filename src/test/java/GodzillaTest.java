@@ -28,6 +28,6 @@ public class GodzillaTest {
     @Test
     public void attack() {
         godzilla.attack(apache);
-        assertEquals(90,apache.getHealthValue());
+        assertEquals(80,apache.getHealthValue());
     }
 }

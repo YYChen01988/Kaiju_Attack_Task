@@ -29,7 +29,7 @@ public abstract class Kaiju {
         this.healthValue -= vehicle.getAttackValue();
     }
 
-    public void attack(Vehicle vehicle){
-        vehicle.healthValue -= this.attackValue;
-    }
+//    public void attack(Vehicle vehicle){
+//        vehicle.healthValue -= this.attackValue;
+//    }
 }
